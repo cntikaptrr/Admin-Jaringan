@@ -7,5 +7,5 @@ Selamat datang direpositori Admin-Jaringan Documentation. Direpo ini berisi doku
 
 ## Documentation
 
-[Documentation](https://github.com/alanhidayat33/Admin-Jaringan/blob/main/Tugas2-Linux/README.md)
+[Tugas2-Linnux](https://github.com/alanhidayat33/Admin-Jaringan/blob/main/Tugas2-Linux/README.md)
 
