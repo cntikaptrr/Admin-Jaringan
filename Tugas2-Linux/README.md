@@ -1,6 +1,6 @@
 
 # 🚀 Tugas Package Maintenance
-
+![](https://www.seekpng.com/png/detail/416-4164571_logo-pens-png-electronic-engineering-polytechnic-institute-of.png)
 **Nama:** Alan Tri Arbani Hidayat
 
 **NRP:** 3121600056
