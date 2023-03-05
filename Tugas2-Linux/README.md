@@ -61,6 +61,14 @@ Seperti halnya manusia, system operasi (OS) yang kita miliki dan kita gunakan sa
 ## Arti Versi Repo
 
 Arti dari versi di repository adalah nomor yang menunjukkan versi paket perangkat lunak yang tersedia di suatu repository pada sistem operasi Linux. Versi ini digunakan untuk membedakan antara versi lama dan versi baru dari paket perangkat lunak, dan untuk memastikan bahwa pengguna memiliki versi yang paling baru dan stabil dari perangkat lunak yang diinstal pada sistem mereka. Nomor versi biasanya terdiri dari tiga angka yang dipisahkan oleh titik, misalnya 1.2.3, di mana angka pertama menunjukkan nomor utama versi, angka kedua menunjukkan nomor rilis, dan angka ketiga menunjukkan nomor revisi atau perbaikan kecil. Semakin tinggi nomor versi, semakin baru perangkat lunak tersebut.
+
+Pada repository Linux, terdapat empat komponen utama yaitu:
+
+- **Main**: Komponen utama yang menyediakan paket perangkat lunak bebas dan terbuka sepenuhnya yang didukung secara resmi oleh distribusi Linux.
+- **Universe**: Komponen yang menyediakan paket perangkat lunak bebas dan terbuka sepenuhnya, tetapi tidak didukung secara resmi oleh distribusi Linux.
+- **Restricted**: Komponen yang menyediakan paket perangkat lunak yang tidak sepenuhnya bebas karena lisensi yang dibatasi, seperti driver perangkat keras tertentu.
+- **Multiverse**: Komponen yang menyediakan paket perangkat lunak yang tidak sepenuhnya bebas dan terbuka karena alasan non-lisensi, seperti plug-in media yang tidak didukung secara resmi.
+- **Paket perangkat lunak** pada komponen Multiverse dapat digunakan dengan lisensi tertentu atau memiliki batasan penggunaan tertentu. Beberapa paket perangkat lunak pada komponen Multiverse misalnya seperti plug-in untuk media player dan codec untuk memutar file multimedia tertentu.
 ## Instalasi Package
 
 - **MC** (Midnight Commander) atau disingkat MC adalah aplikasi manajer berkas yang berjalan di lingkungan teks pada sistem operasi Linux. MC menyediakan antarmuka pengguna teks yang mudah digunakan untuk menjelajahi berkas dan direktori pada sistem operasi.
@@ -75,6 +83,7 @@ Arti dari versi di repository adalah nomor yang menunjukkan versi paket perangka
     - Setelah instalasi selesai, jalankan perintah `mc` untuk memulai Midnight Commander.
 
     Setelah Midnight Commander terbuka, Anda dapat menggunakan antarmuka teksnya untuk menjelajahi dan mengelola berkas dan direktori pada sistem Anda.
+    ![](./Screenshoot/MC.png)
 
 - **Net-Tools** 
     adalah seperangkat utilitas jaringan pada sistem operasi Linux yang digunakan untuk memeriksa dan mengkonfigurasi koneksi jaringan pada sistem. Beberapa utilitas yang termasuk dalam paket net-tools adalah ifconfig (untuk mengkonfigurasi antarmuka jaringan), route (untuk mengkonfigurasi routing jaringan), dan netstat (untuk memeriksa koneksi jaringan). Namun, pada distribusi Linux yang lebih baru, net-tools telah digantikan oleh utilitas jaringan yang lebih modern seperti iproute2.
@@ -88,6 +97,7 @@ Arti dari versi di repository adalah nomor yang menunjukkan versi paket perangka
     - Setelah instalasi selesai, Anda dapat menggunakan utilitas net-tools seperti `ifconfig`, `route`, dan `netstat` untuk memeriksa dan mengkonfigurasi koneksi jaringan pada sistem Anda.
 
     Setelah menginstal net-tools, Anda dapat memeriksa dan mengkonfigurasi koneksi jaringan pada sistem Anda menggunakan utilitas net-tools seperti yang dijelaskan di atas.
+    ![](./Screenshoot/netstat.png)
 
 - **Htop** adalah alat pemantauan proses untuk Linux yang memungkinkan pengguna untuk melihat dan mengelola proses yang sedang berjalan di sistem mereka. Ini memberikan tampilan waktu nyata dari penggunaan CPU, penggunaan memori, dan statistik sistem lainnya dalam format yang mudah dibaca. HTOP memungkinkan pengguna untuk mengurutkan proses berdasarkan berbagai parameter, seperti penggunaan CPU atau penggunaan memori, dan menyediakan opsi untuk menjeda atau menghentikan proses sesuai kebutuhan. Ini adalah alat yang berguna untuk administrator sistem dan pengguna tingkat lanjut yang perlu memantau dan mengelola kinerja sistem Linux mereka.
 
@@ -100,3 +110,4 @@ Arti dari versi di repository adalah nomor yang menunjukkan versi paket perangka
     - Setelah instalasi selesai, Anda dapat menjalankan perintah `htop` pada terminal untuk melihat dan mengelola proses yang sedang berjalan pada sistem Anda.
 
     Setelah menginstal HTOP, Anda dapat menggunakan alat ini untuk memonitor dan mengelola kinerja sistem Linux Anda.
+    ![](./Screenshoot/htop.png)
