@@ -50,7 +50,7 @@ Seperti halnya manusia, system operasi (OS) yang kita miliki dan kita gunakan sa
     Untuk mensetting repository pada Linux, ikuti langkah-langkah berikut:
 
     -  Buka terminal pada sistem Linux Anda.
-    - Jalankan perintah `sudo nano /etc/apt/sources.list` untuk membuka file sources.list.
+    - Jalankan perintah `sudo nano /etc/apt/sources.list` untuk membuka file sources.list. ![](./Screenshoot/Sources-list.png)
     - Cari baris yang berisi informasi repository yang ingin Anda tambahkan atau ubah. Baris tersebut akan terlihat seperti `<deb <http://example.com/ubuntu> bionic main>`.
     - Jika ingin menambahkan repository baru, tambahkan baris baru dengan format `<deb <http://example.com/ubuntu> bionic main>`. Ganti [http://example.com/ubuntu](http://example.com/ubuntu) dengan URL repository yang ingin Anda tambahkan, dan ganti bionic dengan nama versi distribusi Linux yang Anda gunakan.
     - Jika ingin mengubah repository yang sudah ada, ubah baris yang sudah ada dengan URL repository yang baru.
