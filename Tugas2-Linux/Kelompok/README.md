@@ -5,8 +5,9 @@
 ## Anggota Kelompok :
 
 - Alan Tri Arbani Hidayat (3121600056)
-- Wiman Mahroja (31216000)
-- Emha Aji Putra Zaman (31216000)
+- Wiman Mahroja (3121600031)
+- Emha Aji Putra Zaman (3121600042)
+- Cantika Putri Romadhona (3121600051)
 
 ## Roadmap
  - Check Ip PC
