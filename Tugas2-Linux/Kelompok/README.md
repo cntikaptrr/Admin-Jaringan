@@ -55,8 +55,11 @@ Untuk menggunakan Winbox di Debian dibutuhkanlah dependency yaitu [**Wine**](htt
     wine winbox64.exe
     ```
 - Jangan lupa rubah winbox ke mode legacy agar bisa masuk ke interface
+
      ![](../Screenshoot/legacy.png)
+     
 - Masuk ke interface winbox
+
     ![](../Screenshoot/interface.png)
 
 ## Routing table pada RB301 ke seluruh subnet 192.168.x.x
@@ -64,9 +67,11 @@ Untuk menggunakan Winbox di Debian dibutuhkanlah dependency yaitu [**Wine**](htt
 Masuk ke `IP -> Route` untuk membuka konfigurasi Routing dan masukkan Dst Address dan Gaeteway masing-masing Kelompok
 
 - Tabel Route 1
+
     ![](../Screenshoot/Route%201.png)
 
 - Tabel Route 2
+
     ![](../Screenshoot/Route%202.png)
 
 Hasil dari Seluruh Routing
