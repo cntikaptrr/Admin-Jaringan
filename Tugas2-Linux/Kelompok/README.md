@@ -114,3 +114,6 @@ Tampilan awal VirtualBox setelah dijalankan
 ## Install Ubuntu di Virtual Box
 
 Sebelum memulai penginstallan, persiapkanlah file .ISO ubuntu untuk memulai penginstallan
+
+Berikut cara menginstall Ubuntu Di Virtual Box:
+1. Membuat Nama Virtual machine dann memasukkan .ISO image Ubuntu
