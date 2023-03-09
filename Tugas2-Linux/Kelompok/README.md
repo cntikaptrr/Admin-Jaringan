@@ -5,9 +5,7 @@
 ### Anggota Kelompok :
 
 - Alan Tri Arbani Hidayat (3121600056)
-<br>
 - Wiman Mahroja (31216000)
-<br>
 - Emha Aji Putra Zaman (31216000)
 
 ## Roadmap
