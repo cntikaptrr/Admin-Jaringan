@@ -23,7 +23,9 @@ Check apakah PC sudah mendapatkan ip address secara dhcp dengan `ip a`
 ![](../Screenshoot/ip%20a.png)
 
 Apabila masih belum mendapatkan Ip gunakan 
-> `dhclient -v`
+```
+dhclient -v
+```
 
 ## Catat IP Address
 
@@ -41,11 +43,17 @@ Setelah mendapatkan Ip address dari Router, catatlah ipnya dan juga catat ip RB3
 Untuk menggunakan Winbox di Debian dibutuhkanlah dependency yaitu [**Wine**](https://www.winehq.org/). Berikut ini cara untuk install Wine dan Winbox
 
 - Install Wine
-    > `sudo apt install wine`
+    ```
+    sudo apt install wine
+    ```
 - Download file winbox64.exe diwebsite [mikrotik](https://mikrotik.com/download)
-    > `https://mikrotik.com/download`
+    ```
+    https://mikrotik.com/download
+    ```
 - Jalankan program winbox
-    > `wine winbox64.exe`
+    ```
+    wine winbox64.exe
+    ```
 - Jangan lupa rubah winbox ke mode legacy agar bisa masuk ke interface
      ![](../Screenshoot/legacy.png)
 - Masuk ke interface winbox
@@ -72,17 +80,27 @@ Untuk Install Virtual Box di Debian cukup sedikit rumit, dikarenakan menginstall
 
 - Install Virtual Box
     - Via CLI
-        > `sudo apt install virtualbox`
+        ```
+        sudo apt install virtualbox
+        ```
     - Via .deb package
         > Masuk ke website download [virtualbox](https://www.virtualbox.org/wiki/Linux_Downloads) dan download untuk versi Debian 11
     - Install Package
-        > `sudo dpkg -i (nama file virtualbox)`
+        ```
+        sudo dpkg -i (nama file virtualbox)
+        ```
     - Install dependency build-essentials
-        > `sudo apt install build-essentials dkms`
+        ```
+        sudo apt install build-essentials dkms
+        ```
     - Bila menemukan error saat menjalankan virtualbox. Masukkan command berikut
-        > `sudo apt install -f`
+        ```
+        sudo apt install -f
+        ```
     - Jalankan Virtualbox
-        > `virtualbox`
+        ```
+        virtualbox
+        ```
     
 
 Tampilan awal VirtualBox setelah dijalankan
